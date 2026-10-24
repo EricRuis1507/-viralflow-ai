@@ -201,7 +201,7 @@ export default function App() {
       };
       setFinalScript(script);
       await generateVisuals(script);
-    } catch (error) { {
+    } catch (error) {
       console.error(error);
     } finally {
       setScriptLoading(false);
